@@ -1,5 +1,4 @@
 mkl-service
-pandas
 numpy
 keras
 tensorflow
