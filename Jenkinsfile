@@ -7,7 +7,7 @@ pipeline {
                     //bat 'git branch -D staging'
                     //bat 'git checkout dev'
                     //bat 'git push origin staging'
-                    bat 'git branch -d staging'
+                    //bat 'git branch -d staging'
                     bat 'git checkout -b staging'
                     bat 'git push -u origin staging'
                     bat 'git checkout main'
