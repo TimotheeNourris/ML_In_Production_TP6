@@ -10,7 +10,6 @@ simple python flask application
 import ast
 import os
 import numpy as np
-import pandas as pd
 from flask import Flask
 from flask import request
 from flask import render_template
