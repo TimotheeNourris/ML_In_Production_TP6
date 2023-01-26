@@ -18,7 +18,7 @@ from flask.json import jsonify
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.datasets import fashion_mnist 
-import joblib
+
 
 ##########################################################################
 ## Application Setup
