@@ -1,3 +1,4 @@
+mkl-service
 pandas
 numpy
 keras
