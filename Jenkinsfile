@@ -12,6 +12,7 @@ pipeline {
                     bat 'git push -u origin staging'
                     bat 'git checkout main'
                     bat 'git merge staging'
+                    bat 'git pull origin main'
                     bat 'git push origin main'
                 }
         }
