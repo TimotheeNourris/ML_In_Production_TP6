@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout and staging branch creation') {
             steps {
                     //bat 'git branch staging' 
-                    //bat 'git branch -D staging'
+                    bat 'git branch -D staging'
                     //bat 'git checkout dev'
                     //bat 'git push origin staging'
                     //bat 'git branch -d staging'
