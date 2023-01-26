@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage('Checkout and staging branch creation') {
+        '''stage('Checkout and staging branch creation') {
             steps {
                     //bat 'git branch staging' 
                     bat 'git branch -D staging'
@@ -16,7 +16,7 @@ pipeline {
                     bat 'git push origin main'
                 }
         }
-        
+        '''
         stage('Build part') {
             steps {
                 bat 'echo build start'
