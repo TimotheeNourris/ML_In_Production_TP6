@@ -20,7 +20,7 @@ pipeline {
         stage('Build part') {
             steps {
                 bat 'echo build start'
-                bat 'pip install -r requirements.txt'
+                bat 'pip3 install -r requirements.txt'
             }
         }
         stage('Test part') {
