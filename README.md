@@ -1,5 +1,7 @@
 # ML_In_Production_TP6
 
+Code comes from dev part.
+
 First, we needed to create and train a model based on the fashion-mnist dataset, right after, we had to load it into a flask application and create a root "/classify" to load the image as an array and test it with the model. Once everything is done, we launch the application.
 
 <img width="670" alt="launch_app" src="https://user-images.githubusercontent.com/66907341/215291946-1a25da0e-8ad0-4d69-9010-6d04fdd9ecbd.png">
