@@ -1,6 +1,6 @@
 # ML_In_Production_TP6
 
-Code comes from dev part.
+code comes from dev part.
 
 First, we needed to create and train a model based on the fashion-mnist dataset, right after, we had to load it into a flask application and create a root "/classify" to load the image as an array and test it with the model. Once everything is done, we launch the application.
 
