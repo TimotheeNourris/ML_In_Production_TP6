@@ -13,6 +13,6 @@ Moreover, we test directly the app by sending a request with Postman or google C
 Then, we need to make a unittest to see if the application works if we send a specific row.
 <img width="663" alt="unittest" src="https://user-images.githubusercontent.com/66907341/215291922-b286793b-0e11-411c-acdc-2b33dfb463f4.png">
 
-Finally, we add our project to github by adding a Jenkinsfile containing all the steps (creating staging branch and push, build, test, and deploy part), a Dockerfile to push our project to docker and dockerHub.
+Finally, we add our project to github by adding a Jenkinsfile containing all the steps (creating staging branch and push, build, test, and deploy part), a Dockerfile to push our project to docker and dockerHub. We do configure the webhook on github and we launch the Jenkinsfile from Jenkins to run the pipeline with all the steps.
 <img width="699" alt="jenkins_test" src="https://user-images.githubusercontent.com/66907341/215291945-25f8db8b-02ea-494e-9d25-2cdf56e411c4.png">
 
